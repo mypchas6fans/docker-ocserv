@@ -54,10 +54,6 @@ docker run --name ocserv --sysctl net.ipv4.ip_forward=1 --cap-add NET_ADMIN --se
 
 This will start an instance with the a test user named `test` and password is also `test`.
 
-### Unstable version of this image
-
-I'm maintaining a more updated (probably less stable) version of this image on `quay.io/aminvakil/ocserv:unstable` which its Dockerfile can be found on this repo on #unstable branch. I'd be glad if you could test it and give feedback on it.
-
 ### Environment Variables
 
 All the variables to this image is optional, which means you don't have to type in any environment variables, and you can have a OpenConnect Server out of the box! However, if you like to config the ocserv the way you like it, here's what you wanna know.
